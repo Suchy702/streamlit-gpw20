@@ -1,6 +1,11 @@
 # GPW20 Minimal Viewer
 
-GPW20 Minimal Viewer is a web application for tracking the top 20 companies listed on the Polish stock exchange. It includes an end-to-end data pipeline built with Apache Airflow, yfinance, pandas, Azure Database for PostgreSQL, and an interactive Streamlit dashboard.
+![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Status: In Progress](https://img.shields.io/badge/status-in%20progress-orange)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-ff4b4b?logo=streamlit&logoColor=white)](https://gpw20viewer.streamlit.app/)
+
+GPW20 Minimal Viewer is a web application for tracking the top 20 companies listed on the Polish stock exchange. It includes an end-to-end data pipeline built with [Apache Airflow](https://airflow.apache.org/), yfinance, pandas, [Azure Database for PostgreSQL](https://azure.microsoft.com/en-us/products/postgresql/), and an interactive [Streamlit](https://streamlit.io/) dashboard.
 
 ## Live App
 
@@ -78,7 +83,7 @@ Planned next step: host Airflow on an Azure VM so it can run continuously. Right
 
 ### Streamlit
 
-Because this project is focused on data engineering, I chose Streamlit as the fastest way to build a frontend. It matches the project needs well and can be deployed easily through Streamlit Community Cloud.
+Because this project is focused on data engineering, I chose Streamlit as the fastest way to build a frontend. It matches the project needs well and can be deployed easily through [Streamlit Community Cloud](https://streamlit.io/cloud).
 
 I added database credentials securely and deployed the application.
 
