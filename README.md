@@ -22,6 +22,8 @@ https://gpw20viewer.streamlit.app/
 2. **Data Storage**: Collected data is stored in an Azure PostgreSQL database.
 3. **Data Visualization**: A Streamlit application retrieves data from the database and provides an interactive dashboard for users to monitor stock performance.
 
+![Architecture diagram](gpw20Viewer.drawio.svg)
+
 
 
 
