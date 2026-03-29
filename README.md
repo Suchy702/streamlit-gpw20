@@ -8,9 +8,22 @@ https://gpw20viewer.streamlit.app/
 
 
 
-## Lokalnie
+## Local hosting
+```bash
+./main up # run Streamlit app locally
+```
 
-1. Zainstaluj zależności:
+```bash
+./main down # stop Streamlit app
+```
+
+## Architecture
+1. **Data Collection**: Apache Airflow orchestrates the data pipeline, scheduling regular data collection from yfinance.
+2. **Data Storage**: Collected data is stored in an Azure PostgreSQL database.
+3. **Data Visualization**: A Streamlit application retrieves data from the database and provides an interactive dashboard for users to monitor stock performance.
+
+
+
 
 ```bash
 pip install -r requirements.txt
