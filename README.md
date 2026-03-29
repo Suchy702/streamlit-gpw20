@@ -22,24 +22,11 @@ https://gpw20viewer.streamlit.app/
 2. **Data Storage**: Collected data is stored in an Azure PostgreSQL database.
 3. **Data Visualization**: A Streamlit application retrieves data from the database and provides an interactive dashboard for users to monitor stock performance.
 
-![Architecture diagram](gpw20Viewer.drawio.svg)
+<p align="center">
+	<img src="gpw20Viewer.drawio.svg" alt="Architecture diagram" width="900" />
+</p>
 
 
+## How it was made
 
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Uruchom aplikację:
-
-```bash
-streamlit run streamlit_app.py
-```
-
-## Streamlit Community Cloud
-
-1. Wypchnij repozytorium na GitHub.
-2. W Streamlit Community Cloud wybierz to repozytorium.
-3. Jako Main file path ustaw `streamlit_app.py`.
-4. Deploy.
+# PostgreSQL on Azure
