@@ -1,6 +1,12 @@
-# streamlit-gpw20
+# GPW20 minimal viewer
 
-Minimalna aplikacja przygotowana pod deployment na Streamlit Community Cloud.
+Web application to monitor the top 20 Polish stock market companies, featuring an end-to-end data pipeline built with Apache Airflow, yfinance, pandas, Azure PostgreSQL, and an interactive Streamlit dashboard.
+
+https://gpw20viewer.streamlit.app/
+
+<img width="1985" height="1601" alt="image" src="https://github.com/user-attachments/assets/c60cc7b3-00c1-4b5d-9eab-8be67d528686" />
+
+
 
 ## Lokalnie
 
